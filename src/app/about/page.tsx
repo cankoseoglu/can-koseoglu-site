@@ -100,7 +100,7 @@ export default function AboutPage() {
           />
         </div>
         <p>
-          I&apos;m Can Koseoglu (also written Can K&ouml;seo&#287;lu) — a founder
+          I&apos;m Can Koseoglu — a founder
           and CEO based in London. I build companies at the intersection of
           technology and real-world industries. Over the past decade, I&apos;ve gone
           from investment banking to founding and scaling multiple startups across
