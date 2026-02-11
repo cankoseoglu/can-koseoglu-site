@@ -32,7 +32,7 @@ const focuses = [
   {
     title: "Writing and speaking",
     description:
-      "Sharing what I've learnt from building companies — on stage (Slush'D Istanbul 2025) and online. Writing about startups, leadership, and the founder journey.",
+      "Sharing what I've learnt from building companies — on stage and online. Writing about startups, leadership, and the founder journey.",
   },
 ];
 
