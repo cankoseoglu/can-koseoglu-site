@@ -80,6 +80,17 @@ const values = [
 export default function AboutPage() {
   return (
     <section className="mx-auto max-w-2xl px-6 py-16 sm:py-24">
+      <div className="animate-fade-up mb-6">
+        <Image
+          src="/headshot.jpg"
+          alt="Can Koseoglu — Founder, CEO, Builder"
+          width={128}
+          height={128}
+          className="rounded-full border-2 border-neutral-100"
+          priority
+        />
+      </div>
+
       <div className="animate-fade-up">
         <PageHeader
           title="About"
@@ -89,16 +100,6 @@ export default function AboutPage() {
 
       {/* Bio */}
       <div className="animate-fade-up-delay-1 prose mb-16">
-        <div className="mb-8 not-prose">
-          <Image
-            src="/headshot.jpg"
-            alt="Can Koseoglu — Founder, CEO, Builder"
-            width={128}
-            height={128}
-            className="rounded-full border-2 border-neutral-100"
-            priority
-          />
-        </div>
         <p>
           I&apos;m Can Koseoglu — a founder
           and CEO based in London. I build companies at the intersection of
