@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import { PageHeader } from "@/components/page-header";
 import { SITE } from "@/lib/constants";
 
@@ -88,11 +89,22 @@ export default function AboutPage() {
 
       {/* Bio */}
       <div className="animate-fade-up-delay-1 prose mb-16">
+        <div className="mb-8 not-prose">
+          <Image
+            src="/headshot.jpg"
+            alt="Can Koseoglu — Founder, CEO, Builder"
+            width={128}
+            height={128}
+            className="rounded-full border-2 border-neutral-100"
+            priority
+          />
+        </div>
         <p>
-          I&apos;m Can Koseoglu — a founder and CEO based in London. I build
-          companies at the intersection of technology and real-world industries.
-          Over the past decade, I&apos;ve gone from investment banking to founding
-          and scaling multiple startups across proptech and hospitality.
+          I&apos;m Can Koseoglu (also written Can K&ouml;seo&#287;lu) — a founder
+          and CEO based in London. I build companies at the intersection of
+          technology and real-world industries. Over the past decade, I&apos;ve gone
+          from investment banking to founding and scaling multiple startups across
+          proptech and hospitality.
         </p>
         <p>
           Right now I&apos;m leading{" "}

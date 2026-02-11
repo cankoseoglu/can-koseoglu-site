@@ -1,9 +1,21 @@
+import Image from "next/image";
 import Link from "next/link";
 
 export default function Home() {
   return (
     <section className="mx-auto max-w-2xl px-6">
       <div className="flex min-h-[calc(100vh-65px-120px)] flex-col justify-center">
+        <div className="animate-fade-up mb-6">
+          <Image
+            src="/headshot.jpg"
+            alt="Can Koseoglu"
+            width={88}
+            height={88}
+            className="rounded-full border-2 border-neutral-100"
+            priority
+          />
+        </div>
+
         <div className="animate-fade-up">
           <p className="text-sm font-medium tracking-widest text-neutral-400 uppercase mb-6">
             Founder &middot; CEO &middot; Builder
