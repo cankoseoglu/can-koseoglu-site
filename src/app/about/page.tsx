@@ -16,7 +16,7 @@ export const metadata: Metadata = {
 
 const timeline = [
   {
-    year: "2023 – Present",
+    year: "2024 – Present",
     title: "Cendra — Co-Founder",
     description:
       "Building the Invisible GM — an AI operations layer of prebuilt autonomous agents that run end-to-end hospitality operations. Operators define the outcome and Cendra's agents decide the steps to get there, from guest communication and task coordination to inspections, vendor management, and exception handling. Raised a $1M seed round led by Revo Capital.",
@@ -46,7 +46,7 @@ const timeline = [
       "M&A team. Led the execution of sell-side transactions in the steel scrap sector generating over $100M in annual revenue. Raised $3M at a $50M valuation for an e-commerce company specialising in furniture and household goods.",
   },
   {
-    year: "2013 – 2015",
+    year: "2013 – 2014",
     title: "Fibabanka — Project Finance Analyst",
     description:
       "Worked across major project finance deals totalling over $600M, spanning hotel management, tourism, mining, manufacturing, and urban renewal. Closed the EUR 200M debt refinancing for a hotel management company operating across Antalya and Bodrum.",
@@ -83,7 +83,7 @@ export default function AboutPage() {
       <div className="animate-fade-up">
         <PageHeader
           title="About"
-          description={`${SITE.name} — founder, CEO, and serial entrepreneur building companies from zero to one.`}
+          description={`${SITE.name} — serial entrepreneur building companies from zero to one.`}
         />
       </div>
 
