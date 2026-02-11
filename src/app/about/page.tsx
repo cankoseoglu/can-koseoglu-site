@@ -19,7 +19,7 @@ const timeline = [
     year: "2023 – Present",
     title: "Cendra — Co-Founder",
     description:
-      "Building the Invisible GM — an AI operations layer of prebuilt autonomous agents that run end-to-end hospitality operations. Operators define the outcome and Cendra's agents decide the steps to get there, from guest communication and task coordination to inspections, vendor management, and exception handling. Raised a $1M seed round led by Revo Capital. Speaker at Slush'D Istanbul 2025.",
+      "Building the Invisible GM — an AI operations layer of prebuilt autonomous agents that run end-to-end hospitality operations. Operators define the outcome and Cendra's agents decide the steps to get there, from guest communication and task coordination to inspections, vendor management, and exception handling. Raised a $1M seed round led by Revo Capital.",
   },
   {
     year: "2020 – 2024",
