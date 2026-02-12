@@ -9,6 +9,51 @@ export interface Post {
 
 export const posts: Post[] = [
   {
+    slug: "from-erasmusinn-to-airbnb-arbitrage",
+    title: "From 10,000 Rooms to Crypto Spreads to Airbnb Arbitrage",
+    description:
+      "How a failed marketplace, a BTC arbitrage bot, and one Airbnb listing turned into a million-dollar short-term rental business in Istanbul.",
+    date: "2026-01-28",
+    readingTime: "5 min read",
+    content: `
+<p>Every company I've built grew out of the one before it. Not by design — by necessity. When one thing stopped working, I looked at the edges for what came next. That pattern took me from a student accommodation marketplace to a Bitcoin arbitrage bot to a short-term rental portfolio generating over $1M in annual revenue.</p>
+
+<h2>ErasmusInn: scaling supply the hard way</h2>
+
+<p>After three years in finance, I launched ErasmusInn in 2015 — a proptech student accommodation marketplace backed by 500 Global and angel investors. The idea was simple: over 4 million students move across Europe every year and have nowhere reliable to find housing. We'd be the platform they turned to.</p>
+
+<p>I personally validated and scaled the supply side to 10,000 rooms by onboarding hosts across 12 European cities. I stayed in a different Airbnb each night, meeting landlords, pitching the platform, and signing up inventory city by city — Berlin, Lisbon, Madrid, Istanbul, and everywhere in between. We led a 6-person sales team and were finalists at Startup Turkey 2016.</p>
+
+<p>But underneath the traction was a structural problem. Without channel-manager tools or exclusive listing agreements, hosts distributed their inventory everywhere — on our platform, on Airbnb, on local classifieds, on Facebook groups. We had no supply lock-in. Bookings would fall through because a room had already been let somewhere else. The operation became unsustainable, and we wound it down.</p>
+
+<h2>Finding spread where others saw noise</h2>
+
+<p>After ErasmusInn, I was looking for what came next. I noticed that Bitcoin traded at meaningfully different prices on USD exchanges versus Turkish-lira platforms like Paribu and BTCTurk. The spread was sometimes as wide as 20% per trade.</p>
+
+<p>I built a simple arbitrage bot — buy BTC on USD exchanges, sell on Turkish-lira platforms, pocket the spread. It worked well for a while. But like all arbitrage, the margin compressed as more participants entered. The window closed.</p>
+
+<p>What that experience reinforced was a principle I've carried into every business since: if you can see a pricing inefficiency before the market corrects it, move fast.</p>
+
+<h2>One listing that changed everything</h2>
+
+<p>While running the arbitrage bot, I spotted another spread — this time in real estate. I listed my Istanbul flat on Airbnb as an experiment. Short-term letting generated roughly $4,000 per month versus around $1,000 on a long-term lease. A 4x spread, hiding in plain sight.</p>
+
+<p>I took that insight and ran with it. I started leasing more apartments, furnishing them, and listing them on Airbnb — a model known as rental arbitrage. The economics were compelling: lease at long-term rates, operate at short-term yields, and keep the spread.</p>
+
+<h2>Scaling to 10% of Istanbul</h2>
+
+<p>Over the next few years, I bootstrapped that first listing into a portfolio that captured roughly 10% of Istanbul's professionally managed short-term rental listings and generated over $1M in ARR with a 45% EBITDA margin. We called the company Oval.</p>
+
+<p>The business worked because Istanbul had massive tourist demand, a weak lira that made the city cheap for foreign visitors, and a fragmented supply of professionally managed rentals. We moved quickly, locked in favourable leases, and built out the operational muscle to manage dozens of properties simultaneously.</p>
+
+<h2>The seeds of what came next</h2>
+
+<p>But scaling Oval also exposed a fundamental truth about hospitality operations: the more properties you add, the more chaos you create. Every new unit meant more guest messages, more cleaner coordination, more vendor management, more exceptions — all stitched together with WhatsApp threads and spreadsheets.</p>
+
+<p>That pain — the feeling that the operational engine was always one step from breaking — is exactly what led me to build Cendra. But that's a story for another post.</p>
+`,
+  },
+  {
     slug: "from-banking-to-building",
     title: "Why I Left Investment Banking to Start Companies",
     description:
