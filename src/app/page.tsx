@@ -7,7 +7,7 @@ export default function Home() {
       <div className="flex min-h-[calc(100vh-65px-120px)] flex-col justify-center">
         <div className="animate-fade-up mb-6">
           <Image
-            src="/headshot.jpg"
+            src="/can-koseoglu-founder-ceo.jpg"
             alt="Can Koseoglu"
             width={88}
             height={88}

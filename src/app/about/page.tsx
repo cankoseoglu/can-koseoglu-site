@@ -82,7 +82,7 @@ export default function AboutPage() {
     <section className="mx-auto max-w-2xl px-6 py-16 sm:py-24">
       <div className="animate-fade-up mb-6">
         <Image
-          src="/headshot.jpg"
+          src="/can-koseoglu-founder-ceo.jpg"
           alt="Can Koseoglu — Founder, CEO, Builder"
           width={128}
           height={128}

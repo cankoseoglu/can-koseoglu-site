@@ -7,7 +7,7 @@ export function PersonJsonLd() {
     name: SITE.name,
     alternateName: "Can Köseoğlu",
     url: SITE.url,
-    image: `${SITE.url}/headshot.jpg`,
+    image: `${SITE.url}/can-koseoglu-founder-ceo.jpg`,
     sameAs: [SITE.linkedin, SITE.github, SITE.twitter],
     jobTitle: "Founder & CEO",
     description: SITE.description,
@@ -120,7 +120,7 @@ export function ArticleJsonLd({
     description,
     datePublished: date,
     url,
-    image: `${SITE.url}/headshot.jpg`,
+    image: `${SITE.url}/can-koseoglu-founder-ceo.jpg`,
     author: {
       "@type": "Person",
       name: SITE.name,
