@@ -16,6 +16,8 @@ export const posts: Post[] = [
     date: "2026-01-28",
     readingTime: "5 min read",
     content: `
+<div class="tldr"><strong>TL;DR</strong> I built a student accommodation marketplace (ErasmusInn) to 10,000 rooms but couldn't lock in supply. Then ran a BTC arbitrage bot between USD and Turkish-lira exchanges. Spotted a 4x spread between short-term and long-term rents in Istanbul, and bootstrapped that into a $1M+ ARR Airbnb arbitrage portfolio (Oval).</div>
+
 <p>Every company I've built grew out of the one before it. Not by design — by necessity. When one thing stopped working, I looked at the edges for what came next. That pattern took me from a student accommodation marketplace to a Bitcoin arbitrage bot to a short-term rental portfolio generating over $1M in annual revenue.</p>
 
 <h2>ErasmusInn: scaling supply the hard way</h2>
@@ -61,6 +63,8 @@ export const posts: Post[] = [
     date: "2025-12-15",
     readingTime: "4 min read",
     content: `
+<div class="tldr"><strong>TL;DR</strong> Three years at UBS, Fibabanka, and IEG gave me deal-making skills and pattern recognition — but I realised I wanted to build companies, not advise them. Left banking and never looked back.</div>
+
 <p>I spent the first three years of my career in finance — starting as an investment banking analyst at UBS, then moving into project finance at Fibabanka where I worked on deals totalling over $600M, and finally joining the M&A team at IEG Investment Banking Group in Istanbul.</p>
 
 <p>Those years taught me a lot. How to structure a deal. How to read a business from the outside. How to stay sharp under pressure. But they also taught me something I didn't expect: I didn't want to advise on businesses. I wanted to build them.</p>
@@ -92,6 +96,8 @@ export const posts: Post[] = [
     date: "2025-11-02",
     readingTime: "5 min read",
     content: `
+<div class="tldr"><strong>TL;DR</strong> We scaled ErasmusInn to 10,000+ rooms across 12 European cities with a 6-person sales team going door to door. Growth exposed every weakness — manual processes broke, cross-border payments were a nightmare, and we spread too thin too fast.</div>
+
 <p>ErasmusInn was my first real company. We built a peer-to-peer accommodation marketplace for exchange students — think Airbnb, but purpose-built for the 4 million+ students who move across Europe every year and have no idea where to live.</p>
 
 <p>Over three years, we grew to 10,000+ rooms across 12 European cities, generated over EUR 3M in GMV, and were backed by 500 Startups. We were finalists at Startup Turkey 2016. It was the most formative experience of my career.</p>
@@ -123,6 +129,8 @@ export const posts: Post[] = [
     date: "2025-09-20",
     readingTime: "5 min read",
     content: `
+<div class="tldr"><strong>TL;DR</strong> Hospitality doesn't need more dashboards — it needs AI agents that plan, decide, and execute. Cendra's Invisible GM runs end-to-end operations so operators define the outcome and agents handle the steps.</div>
+
 <p>Before starting Cendra, I spent six years running short-term rental operations at Oval. We bootstrapped an Airbnb rental arbitrage business to multi-million USD ARR, capturing 10% market share in Istanbul. On paper, it was a success. In practice, every single day was operational chaos.</p>
 
 <h2>The pain that built Cendra</h2>
@@ -158,6 +166,8 @@ export const posts: Post[] = [
     date: "2025-08-05",
     readingTime: "4 min read",
     content: `
+<div class="tldr"><strong>TL;DR</strong> Look for complementary skills, shared values, and the ability to disagree well. Stress-test the relationship before committing. Misaligned sacrifice is a slow poison.</div>
+
 <p>I've co-founded four companies now — ErasmusInn, Oval, Fullog, and Cendra. Each time, the co-founder dynamic was different. And each time, it was the single most important decision I made.</p>
 
 <h2>Complementary skills, shared values</h2>
@@ -187,6 +197,8 @@ export const posts: Post[] = [
     date: "2025-07-12",
     readingTime: "4 min read",
     content: `
+<div class="tldr"><strong>TL;DR</strong> Your first 100 customers are a hustle problem, not a marketing problem. Do things that don't scale, solve the problem before selling the product, and ask for feedback not permission.</div>
+
 <p>I've had to find the first 100 customers for multiple businesses now — a student accommodation marketplace, a short-term rental operation, a 3PL fulfilment company, and an AI platform for hospitality operators. The tactics change; the principles don't.</p>
 
 <h2>Do things that don't scale</h2>
