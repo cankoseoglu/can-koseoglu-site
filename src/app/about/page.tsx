@@ -93,7 +93,7 @@ export default function AboutPage() {
 
       <div className="animate-fade-up">
         <PageHeader
-          title="About"
+          title="About Can Koseoglu"
           description={`${SITE.name} — serial entrepreneur building companies from zero to one.`}
         />
       </div>

@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { ArticleJsonLd } from "@/components/json-ld";
+import { ArticleJsonLd, BreadcrumbJsonLd } from "@/components/json-ld";
 import { SITE } from "@/lib/constants";
 import { posts, getPostBySlug, formatDate } from "@/lib/posts";
 
@@ -50,6 +50,13 @@ export default async function PostPage({ params }: Props) {
         description={post.description}
         date={post.date}
         url={`${SITE.url}/writing/${post.slug}`}
+      />
+      <BreadcrumbJsonLd
+        items={[
+          { name: "Home", url: SITE.url },
+          { name: "Writing", url: `${SITE.url}/writing` },
+          { name: post.title, url: `${SITE.url}/writing/${post.slug}` },
+        ]}
       />
 
       <div className="animate-fade-up mb-10">

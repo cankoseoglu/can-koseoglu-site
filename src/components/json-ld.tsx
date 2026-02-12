@@ -120,11 +120,46 @@ export function ArticleJsonLd({
     description,
     datePublished: date,
     url,
+    image: `${SITE.url}/headshot.jpg`,
     author: {
       "@type": "Person",
       name: SITE.name,
       url: SITE.url,
     },
+    publisher: {
+      "@type": "Person",
+      name: SITE.name,
+      url: SITE.url,
+    },
+    isPartOf: {
+      "@type": "WebSite",
+      name: SITE.name,
+      url: SITE.url,
+    },
+  };
+
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+    />
+  );
+}
+
+export function BreadcrumbJsonLd({
+  items,
+}: {
+  items: { name: string; url: string }[];
+}) {
+  const schema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: items.map((item, i) => ({
+      "@type": "ListItem",
+      position: i + 1,
+      name: item.name,
+      item: item.url,
+    })),
   };
 
   return (
