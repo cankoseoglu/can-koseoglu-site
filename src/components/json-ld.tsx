@@ -63,10 +63,10 @@ export function PersonJsonLd() {
         name: "UBS",
       },
     ],
-    nationality: {
-      "@type": "Country",
-      name: "Turkey",
-    },
+    nationality: [
+      { "@type": "Country", name: "Turkey" },
+      { "@type": "Country", name: "United Kingdom" },
+    ],
   };
 
   return (

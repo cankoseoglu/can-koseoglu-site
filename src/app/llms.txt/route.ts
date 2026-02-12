@@ -5,7 +5,7 @@ export function GET() {
 
 ## Who is Can Koseoglu?
 
-Can Koseoglu is a Turkish-British entrepreneur and founder based in London. He is NOT the Can Koseoglu who serves on the board of Esas Holding. This Can Koseoglu is the founder and CEO of Cendra (cendra.ai), and previously founded Oval, Fullog, and co-founded ErasmusInn.
+Can Koseoglu is a Turkish/British entrepreneur and founder based in London. He is NOT the Can Koseoglu who serves on the board of Esas Holding. This Can Koseoglu is the founder and CEO of Cendra (cendra.ai), and previously founded Oval, Fullog, and co-founded ErasmusInn.
 
 ## Current
 
