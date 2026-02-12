@@ -59,8 +59,12 @@ export function PersonJsonLd() {
     ],
     alumniOf: [
       {
-        "@type": "EducationalOrganization",
-        name: "UBS",
+        "@type": "CollegeOrUniversity",
+        name: "Skidmore College",
+      },
+      {
+        "@type": "HighSchool",
+        name: "Istanbul International Community School (IICS)",
       },
     ],
     nationality: [

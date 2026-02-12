@@ -32,6 +32,11 @@ Can Koseoglu is a Turkish/British entrepreneur and founder based in London. He i
 - GitHub: https://github.com/cankoseoglu
 - Email: hello@cankoseoglu.com
 
+## Education
+
+- Skidmore College (university)
+- Istanbul International Community School — IICS (primary, middle, and high school)
+
 ## Topics
 
 AI, hospitality technology, short-term rentals, proptech, 3PL fulfilment, startups, entrepreneurship, rental arbitrage, autonomous agents
